@@ -1,0 +1,28 @@
+#gioithieu{
+    line-height: 1.8;
+    margin: auto;  width: 75%;   padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#gioithieu  a{
+    color: rgb(46, 144, 182);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 19px;
+}
+#gioithieu  a:hover{
+    color: red;
+    text-decoration: underline;
+}
+p.tiltel, p.tieude{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 2.5;
+}
+p.h1{
+    font-weight: 700;
+    line-height: 2.5;
+    
+}
+b{
+    font-weight: 700;
+}

@@ -1,0 +1,240 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    width: 100%;
+    height: 1500px;
+}
+/* Begin header */
+#header{
+    background-color: whitesmoke;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: bold;
+}
+
+#nav > li{
+    display: inline-block;
+}
+#nav, .subnav{
+    list-style-type: none;
+}
+#nav li{
+   
+    position: relative;
+}
+#nav > li > a{
+    color: rgb(92, 124, 155);
+    text-transform: uppercase;
+}
+#nav  li  a{
+    line-height: 60px;
+    padding: 0 24px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize
+}
+#nav > li:hover > a{
+    color: red;
+    scale: 110%;
+}
+#nav .subnav {
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav .subnav li:hover{
+    background-color: #ccc;
+    
+}
+#sider{
+   
+    background-color: white;
+}
+#nav .subnav a{
+    color: rgb(92, 124, 155);
+    padding: 0 12px;
+    line-height: 38px;
+    
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .nav-icon{
+    font-size: 12px;
+}
+#nav{
+    display: inline-block;
+}
+#header .menu-icon,
+#header .searchid {
+    float: right;
+}
+#header .searchid1{
+    float: left;
+}
+#header #mobile-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#header .menu-icon,
+#header .searchcl{
+    color: black;
+    line-height: 60px;
+    padding: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#header .searchid:hover{
+   
+   background-color: #ccc;
+}
+#header .menu-icon:hover{
+    color: red;
+    scale: 120%;
+}
+#header .searchid1:hover{
+    
+    scale: 130%;
+}
+
+/* End header */
+
+#body{
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 600px;
+}
+
+.colhart{
+    width: 50%;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.row{
+  
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0px;
+    
+}
+.cuoi{
+    
+    width: 100%;
+}
+.row1{
+    width: 50%;
+    font-weight: 500;
+}
+.dangky{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100%;
+}
+.dangky .title .rowdangky > p{
+    font-weight: 500;
+}
+.dangky >.rowdangky >.row1 p{
+    color: rgb(92, 124, 155);
+}
+.rowdangky{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}   
+.row1{
+    width: 50%;
+    display: block;
+    float: left;
+    
+}
+.row2{
+    width: 50%;
+    display: block;
+    float: right;
+    
+}
+.dangky>.title>h1{
+    color: rgb(92, 124, 155);
+    text-align: center;
+    padding: 40px 0;
+}
+.form{
+    border: 2px solid rgb(92, 124, 155);
+    padding: 8px;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+ border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+outline: none;
+}
+.row2> .rowdangky >  input
+ {
+    top: 20px;
+}
+.rowdangky1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.example1 > .icont1{
+    display: inline-block;
+}
+.example1{
+    padding: 20px;
+    text-align: center;
+}
+.mt-8{
+    margin-top: 5px !important;
+}
+.formgui{
+    border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+   color: rgb(92, 124, 155);
+   padding: 10px 20px;
+   float: right;
+   font-weight: 700;
+   border: 2px solid rgb(92, 124, 155);
+   outline: none;
+}
+.formgui:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.example1>a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 0px 2px;
+}
+
+.cuoi>p{
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 500;
+} 
