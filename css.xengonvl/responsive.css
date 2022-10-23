@@ -27,6 +27,10 @@
     .card-text{
         font-size: 10px;
     }
+    .card-title{
+        font-size: 12px;
+    }
+    
 } 
 /* Tablet */
 @media (min-width: 821px) and  (max-width: 1024px) {
