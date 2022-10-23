@@ -26,3 +26,7 @@ p.h1{
 b{
     font-weight: 700;
 }
+#gioithieu .ul li{
+   
+    margin: 0 20px;
+}
