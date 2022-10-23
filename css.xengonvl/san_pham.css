@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    width: 100%;
+}
+/* Begin header */
+/* Begin header */
+#header{
+    background-color: whitesmoke;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: bold;
+}
+
+#nav > li{
+    display: inline-block;
+}
+#nav, .subnav{
+    list-style-type: none;
+}
+#nav li{
+   
+    position: relative;
+}
+#nav > li > a{
+    color: rgb(92, 124, 155);
+    text-transform: uppercase;
+}
+#nav  li  a{
+    line-height: 60px;
+    padding: 0 24px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize
+}
+#nav > li:hover > a{
+    color: red;
+    scale: 110%;
+}
+#nav .subnav {
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav .subnav li:hover{
+    background-color: #ccc;
+    
+}
+#sider{
+   
+    background-color: white;
+}
+#nav .subnav a{
+    color: rgb(92, 124, 155);
+    padding: 0 12px;
+    line-height: 38px;
+    
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .nav-icon{
+    font-size: 12px;
+}
+#nav{
+    display: inline-block;
+}
+#header .menu-icon,
+#header .searchid {
+    float: right;
+}
+#header .searchid1{
+    float: left;
+}
+#header #mobile-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#header .menu-icon,
+#header .searchcl{
+    color: black;
+    line-height: 60px;
+    padding: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#header .searchid:hover{
+   
+   background-color: #ccc;
+}
+#header .menu-icon:hover{
+    color: red;
+    scale: 120%;
+}
+#header .searchid1:hover{
+    
+    scale: 130%;
+}
+
+#body{
+    width: 100%;
+    height: 800px;
+    margin-top: 60px;
+    
+}
+
+.colhart{
+    width: 50%;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.row{
+  
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0px;
+    
+}
+.cuoi{
+    
+    width: 100%;
+}
+.row1{
+    width: 50%;
+    font-weight: 500;
+}
+
+.row1{
+    width: 50%;
+    display: block;
+    float: left;
+    
+}
+.row2{
+    width: 50%;
+    display: block;
+    float: right;
+    
+}
+.dangky>.title>h1{
+    color: rgb(92, 124, 155);
+    text-align: center;
+    padding: 40px 0;
+}
+.form{
+    border: 2px solid rgb(92, 124, 155);
+    padding: 8px;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+ border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+outline: none;
+}
+.row2> .rowdangky >  input
+ {
+    top: 20px;
+}
+.rowdangky1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.example1 > .icont1{
+    display: inline-block;
+}
+.example1{
+    padding: 20px;
+    text-align: center;
+}
+.mt-8{
+    margin-top: 5px !important;
+}
+.formgui{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   color: rgb(92, 124, 155);
+   padding: 10px 20px;
+   float: right;
+   font-weight: 700;
+   border: 2px solid rgb(92, 124, 155);
+   outline: none;
+}
+.formgui:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.example1>a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 0px 2px;
+}
+.example1>a:hover{
+    color: red;
+}
+.cuoi>p{
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 500;
+    
+}
+
+/* noi dung */
+
+.table #menu div{
+    margin-left: 30px;
+    margin-right: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 7%;
+    height: 80px;
+    margin-top: 20px;
+}
+.table #menu{
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+}
+.table #menu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+.table #menu div:hover{
+    background-color: white;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    
+}
+#menu img{
+    width: 100px;
+    height: 60px; 
+}
+
+#vinfast, #kia , #ford , #honda , #huyndai , #mer , #mazda h1{
+    color: rgb(31, 71, 173);
+    text-align: center;
+    margin-top: 800px;
+    
+}
+#toyota h1 {
+    color: rgb(31, 71, 173);
+    text-align: center;
+    margin-top: 400px;
+}
+.head h1 {
+    color: rgb(31, 71, 173);
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 8px;
+    font-family: Verdana ;
+}
+.head p{
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    font-family: Verdana ;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.gallery {
+    height: 90%;
+    width: 100%;
+}
+.gallery:hover{
+    background-color: rgb(63, 166, 121);
+    background-image: linear-gradient(to bottom, #c9dba4, white)
+}
+div.desc p {
+    margin: 20px;
+    text-align: center;
+    color:rgb(201, 38, 38);
+    border: 2px solid rgb(71, 138, 201);
+}
+.desc:hover p{
+    background-color: rgb(73, 188, 214);
+}
+
+.text{
+    color:black;
+    font-weight: bold;
+}
+.responsive,.gallery,.desc,.text p{
+    color:black;
+}
+  
+.responsive {
+    height: 300px;
+    padding: 0px 20px;
+    float: left;
+    width: 24.99999%;
+    margin-bottom: 10px;
+}
+.hai{
+    margin-top: 70px;
+    text-align: center;
+}
+.gallery img{
+    text-align: center;
+    height: 60%;
+    width: 90%;
+}
+.hangxe{
+    margin-top:200px;
+    margin-bottom:200px
+}
+#sanpham{
+    margin-bottom:1000px;
+}
+
+/* anh dau trang  */
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width:100%;
+  height:50%;
+  margin-top:48px
+}
+
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.numbertext img {
+    width:100%;
+    height:50%;
+}
+.mySlides fade {
+    width:100%;
+    height:50%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text1 {font-size: 11px}
+}
+
