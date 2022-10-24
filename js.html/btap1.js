@@ -33,18 +33,3 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 2500); // chuyen anh
 } 
-// Tu dong menu khi chon
-var menuItems = document.querySelectorAll('#nav li a[href*="#"]') 
-for (var i=0; i<menuItems.length; i++){
-  var menuItem = menuItems[i];
-  menuItem.onclick=function(){
-    header.style.height= null ;
-  }
-} 
-var menuItemas = document.querySelectorAll('#nav li a[href*="banxe.html"]') 
-for (var i=0; i<menuItemas.length; i++){
-  var menuItema = menuItemas[i];
-  menuItema.onclick=function(){
-    header.style.height= null ;
-  }
-}       

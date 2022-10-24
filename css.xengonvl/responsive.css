@@ -52,7 +52,9 @@
     #lienhe > .row > .colhart > p{
         font-size: 14px !important;
     }
-    
+    .numbertext{
+        font-size: 12px !important;
+    }
     
 } 
 /* Tablet */

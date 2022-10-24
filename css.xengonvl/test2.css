@@ -7,8 +7,7 @@
     display: flex;
     flex-wrap: nowrap;
     background-color: #ccc;
-    -webkit-justify-content: space-between; /* Safari */
-      justify-content:         space-between;
+ 
       justify-content: center
   }
   
@@ -17,10 +16,10 @@
     width: 140px;
     margin: 10px;
     text-align: center;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
   }
   .card-item > .card-title > h5{
     text-decoration: none;
