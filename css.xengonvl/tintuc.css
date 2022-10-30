@@ -131,7 +131,7 @@ h2{
 }
 .flex-container {
     display: flex;
-    margin-left: 200px;
+    
     margin-right: 200px;
   }
   
@@ -254,7 +254,19 @@ h2{
     .example1>a{
         font-size: 16px;
     }
+    .row,.colhart{
+        width: 100% !important;
+        float: right !important;
+    }
+    .flex-container {
+        margin: 0 !important;
+        display: block;
+    }
+    .content {
+        width: auto;
+    }
     
+
 } 
 /* Tablet */
 @media (min-width: 821px) and  (max-width: 1024px) {

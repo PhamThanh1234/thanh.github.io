@@ -185,10 +185,7 @@ html{
     border: 2px solid rgb(92, 124, 155);
     padding: 8px;
     width: 100%;
-    border-bottom-right-radius: 15px;
- border-bottom-left-radius: 15px;
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
+    border-radius: 15px;
 outline: none;
 }
 .row2> .rowdangky >  input
@@ -211,10 +208,7 @@ outline: none;
     margin-top: 5px !important;
 }
 .formgui{
-    border-bottom-right-radius: 10px;
- border-bottom-left-radius: 10px;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    border-radius: 10px;
    color: rgb(92, 124, 155);
    padding: 10px 20px;
    float: right;

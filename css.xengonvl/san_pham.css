@@ -5,6 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 html{
+    scroll-padding-top: 70px;
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -267,7 +268,7 @@ outline: none;
 #toyota h1 {
     color: rgb(31, 71, 173);
     text-align: center;
-    margin-top: 400px;
+    
 }
 .head h1 {
     color: rgb(31, 71, 173);
@@ -329,7 +330,7 @@ div.desc p {
     width: 90%;
 }
 .hangxe{
-    margin-top:200px;
+    margin-top:100px;
     margin-bottom:200px
 }
 #sanpham{
